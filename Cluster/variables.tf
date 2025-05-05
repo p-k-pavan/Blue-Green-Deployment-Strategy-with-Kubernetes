@@ -1,6 +1,6 @@
-variable "ssh_key_name" {
-  description = "The name of the SSH key pair to use for instances"
-  type        = string
-  default     = "DevOps-Shack"
-}
 
+
+variable "vpc_cidr_block" {}
+variable "subnet_cidr_block" {}
+variable "azs" {}
+variable "key" {}
